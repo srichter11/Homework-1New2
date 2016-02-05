@@ -14,6 +14,10 @@
 		55B031541C5ECFFB0056D454 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B031521C5ECFFB0056D454 /* LaunchScreen.storyboard */; };
 		55B0315F1C5ECFFB0056D454 /* Homework_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B0315E1C5ECFFB0056D454 /* Homework_1Tests.swift */; };
 		55B0316A1C5ECFFB0056D454 /* Homework_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B031691C5ECFFB0056D454 /* Homework_1UITests.swift */; };
+		55B031781C5ED7130056D454 /* sample-305-palm-tree.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B031771C5ED7130056D454 /* sample-305-palm-tree.png */; };
+		55B0317A1C5ED8390056D454 /* sample-603-anchor.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B031791C5ED8390056D454 /* sample-603-anchor.png */; };
+		55B0317C1C5EDAAB0056D454 /* Mountains.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55B0317B1C5EDAAB0056D454 /* Mountains.jpg */; };
+		55B031801C5F0E260056D454 /* australiaocean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55B0317F1C5F0E260056D454 /* australiaocean.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		55B031651C5ECFFB0056D454 /* Homework 1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Homework 1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55B031691C5ECFFB0056D454 /* Homework_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework_1UITests.swift; sourceTree = "<group>"; };
 		55B0316B1C5ECFFB0056D454 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B031771C5ED7130056D454 /* sample-305-palm-tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-305-palm-tree.png"; sourceTree = "<group>"; };
+		55B031791C5ED8390056D454 /* sample-603-anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sample-603-anchor.png"; sourceTree = "<group>"; };
+		55B0317B1C5EDAAB0056D454 /* Mountains.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mountains.jpg; sourceTree = "<group>"; };
+		55B0317F1C5F0E260056D454 /* australiaocean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australiaocean.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,13 @@
 			children = (
 				55B031491C5ECFFB0056D454 /* AppDelegate.swift */,
 				55B0314B1C5ECFFB0056D454 /* ViewController.swift */,
+				55B031521C5ECFFB0056D454 /* LaunchScreen.storyboard */,
 				55B0314D1C5ECFFB0056D454 /* Main.storyboard */,
 				55B031501C5ECFFB0056D454 /* Assets.xcassets */,
-				55B031521C5ECFFB0056D454 /* LaunchScreen.storyboard */,
+				55B0317B1C5EDAAB0056D454 /* Mountains.jpg */,
+				55B0317F1C5F0E260056D454 /* australiaocean.jpg */,
+				55B031771C5ED7130056D454 /* sample-305-palm-tree.png */,
+				55B031791C5ED8390056D454 /* sample-603-anchor.png */,
 				55B031551C5ECFFB0056D454 /* Info.plist */,
 			);
 			path = "Homework 1";
@@ -229,8 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55B0317C1C5EDAAB0056D454 /* Mountains.jpg in Resources */,
 				55B031541C5ECFFB0056D454 /* LaunchScreen.storyboard in Resources */,
+				55B031801C5F0E260056D454 /* australiaocean.jpg in Resources */,
 				55B031511C5ECFFB0056D454 /* Assets.xcassets in Resources */,
+				55B031781C5ED7130056D454 /* sample-305-palm-tree.png in Resources */,
+				55B0317A1C5ED8390056D454 /* sample-603-anchor.png in Resources */,
 				55B0314F1C5ECFFB0056D454 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

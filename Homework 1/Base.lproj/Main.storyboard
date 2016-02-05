@@ -1,25 +1,206 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10089" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AVU-6z-Mfb">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10072.1"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Land-->
+        <scene sceneID="Ll1-Cc-qzR">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController id="DB5-l4-Qrj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Land" image="sample-305-palm-tree.png" selectedImage="sample-305-palm-tree.png" id="woA-dj-grP"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Rtk-6j-7ix">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Cbi-7B-KWW" kind="relationship" relationship="rootViewController" id="CUj-eW-pRx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hAb-OT-xCE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1546" y="720"/>
+        </scene>
+        <!--Land-->
+        <scene sceneID="E7b-dE-H3s">
+            <objects>
+                <viewController id="Cbi-7B-KWW" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="cwK-Gv-Ftf"/>
+                        <viewControllerLayoutGuide type="bottom" id="uxW-mP-U1p"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="ygo-cx-SCY">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gtj-eC-dki">
+                                <rect key="frame" x="250" y="285" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.49943870306015015" green="0.94804996252059937" blue="0.11432189494371414" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="xp7-fH-DpX"/>
+                                </constraints>
+                                <state key="normal" title="Press Me">
+                                    <color key="titleShadowColor" red="0.065650276839733124" green="0.067421771585941315" blue="0.017342425882816315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="X2x-r3-t7S" kind="show" id="IjS-EY-6lw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92102086544036865" green="0.97490566968917847" blue="0.94747811555862427" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Gtj-eC-dki" firstAttribute="centerY" secondItem="ygo-cx-SCY" secondAttribute="centerY" id="86D-eK-oXK"/>
+                            <constraint firstItem="Gtj-eC-dki" firstAttribute="centerX" secondItem="ygo-cx-SCY" secondAttribute="centerX" id="BYq-OF-Pd8"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="Land" id="8H6-We-jLP"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="knR-lu-Dxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-1546" y="1520"/>
+        </scene>
+        <!--Sea-->
+        <scene sceneID="Tnc-yC-lH9">
+            <objects>
+                <navigationController id="9m4-LQ-tzt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Sea" image="sample-603-anchor.png" id="6Gd-TP-n2E"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b8j-EE-cXo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="Kkh-NI-9aT" kind="relationship" relationship="rootViewController" id="Wf5-gD-5Ij"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YGg-bb-Ft7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-852" y="720"/>
+        </scene>
+        <!--Sea-->
+        <scene sceneID="htu-fC-eXa">
+            <objects>
+                <viewController id="Kkh-NI-9aT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4lT-I0-bpO"/>
+                        <viewControllerLayoutGuide type="bottom" id="txd-ds-BNg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="if8-XJ-vAH">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="australiaocean.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uBg-7d-1Ec">
+                                <rect key="frame" x="0.0" y="0.0" width="1280" height="800"/>
+                            </imageView>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqv-Gv-lqK">
+                                <rect key="frame" x="225" y="277" width="150" height="47"/>
+                                <color key="backgroundColor" red="0.065650276839733124" green="0.067421771585941315" blue="0.017342425882816315" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="Cwo-eH-yLU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
+                                <state key="normal" title="Press Me"/>
+                                <connections>
+                                    <segue destination="4yn-fm-SUh" kind="show" id="huk-3p-xwP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.32055791884816753" green="0.0098711016951622751" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="bqv-Gv-lqK" firstAttribute="centerY" secondItem="if8-XJ-vAH" secondAttribute="centerY" id="FC0-Fq-bua"/>
+                            <constraint firstItem="bqv-Gv-lqK" firstAttribute="centerX" secondItem="if8-XJ-vAH" secondAttribute="centerX" id="VjC-Cm-hUs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sea" id="5Yw-X4-yx6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D1a-cj-R0e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-852" y="1490"/>
+        </scene>
+        <!--Hello World // Sea-->
+        <scene sceneID="ozH-Z8-PbT">
+            <objects>
+                <viewController id="4yn-fm-SUh" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SU8-1s-Stc"/>
+                        <viewControllerLayoutGuide type="bottom" id="x3e-qi-ktH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RbS-Ud-4NQ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hello World" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W49-IA-LmT">
+                                <rect key="frame" x="252" y="285" width="96" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0071232855330000001" green="0.0" blue="0.1635921139" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="W49-IA-LmT" firstAttribute="centerY" secondItem="RbS-Ud-4NQ" secondAttribute="centerY" id="dt8-TB-bZ5"/>
+                            <constraint firstItem="W49-IA-LmT" firstAttribute="centerX" secondItem="RbS-Ud-4NQ" secondAttribute="centerX" id="eL2-13-4ls"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hello World // Sea" id="5qo-dy-T48"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fzf-ii-XJz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-822" y="2270"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="csJ-BO-bMQ">
+            <objects>
+                <tabBarController id="AVU-6z-Mfb" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="DvE-3f-rfL"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="TbB-jm-Jvr">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="DB5-l4-Qrj" kind="relationship" relationship="viewControllers" id="8ma-EG-Q46"/>
+                        <segue destination="9m4-LQ-tzt" kind="relationship" relationship="viewControllers" id="lMH-Q4-gnD"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQX-uu-eiR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1238" y="-169"/>
+        </scene>
+        <!--Hello World! // Land-->
+        <scene sceneID="lTp-zk-Cj2">
+            <objects>
+                <viewController id="X2x-r3-t7S" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1BR-vG-DhL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xev-us-l9t"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Xtg-sr-Kbl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Hello World" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X7t-Ru-ye7">
+                                <rect key="frame" x="253" y="285" width="96" height="30"/>
+                                <color key="textColor" red="1" green="0.3441741633" blue="0.26256912449999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="0.66600539920000001" green="0.66600539920000001" blue="0.66600539920000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="X7t-Ru-ye7" firstAttribute="centerY" secondItem="Xtg-sr-Kbl" secondAttribute="centerY" id="D8X-6P-pGR"/>
+                            <constraint firstItem="X7t-Ru-ye7" firstAttribute="centerX" secondItem="Xtg-sr-Kbl" secondAttribute="centerX" id="lu8-L4-OoI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Hello World! // Land" id="zNX-aF-gx4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="86N-7b-GEF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1546" y="2292"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="australiaocean.jpg" width="1280" height="800"/>
+        <image name="sample-305-palm-tree.png" width="20" height="26"/>
+        <image name="sample-603-anchor.png" width="28" height="28"/>
+    </resources>
 </document>
